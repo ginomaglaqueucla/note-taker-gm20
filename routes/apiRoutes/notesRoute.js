@@ -7,3 +7,5 @@ router.get('/notes', (req, res) => {
   console.log(results);
   res.json(results);
 });
+
+module.exports  = router;
