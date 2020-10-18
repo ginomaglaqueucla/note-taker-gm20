@@ -1,3 +1,5 @@
+const $noteList = document.querySelector('.list-group-item');
+
 const getNotes = (formData = {}) => {
     let queryUrl = '/api/notes?';
   
@@ -20,4 +22,10 @@ const getNotes = (formData = {}) => {
     });
   };
 
-  getNotes();
+const handleDisyplayNoteClick = event => {
+    event.preventDefault();
+    
+}
+
+$noteList.addEventListener('click', handleDisplayNoteClick)
+getNotes();
