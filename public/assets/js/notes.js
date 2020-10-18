@@ -1,31 +1,35 @@
-const $noteList = document.querySelector('.list-group-item');
-
-const getNotes = (formData = {}) => {
-    let queryUrl = '/api/notes?';
+// let noteDisplay;
+// if (window.location.pathname === '/notes') {
+//     noteDisplay = document.querySelector('.list-group-item');
+// }
+// // const getNotes = (formData = {}) => {
+// //     let queryUrl = '/api/notes?';
   
-    Object.entries(formData).forEach(([key, value]) => {
-      queryUrl += `${key}=${value}&`;
-    });
+// //     Object.entries(formData).forEach(([key, value]) => {
+// //       queryUrl += `${key}=${value}&`;
+// //     });
   
-    console.log(queryUrl);
+// //     console.log(queryUrl);
   
-    fetch(queryUrl)
-    .then(response => {
-      if (!response.ok) {
-        return alert('Error: ' + response.statusText);
-      }
-      return response.json();
-    })
-    .then(notesData => {
-      console.log(notesData);
-    //   printResults(notesData);
-    });
-  };
+// //     fetch(queryUrl)
+// //     .then(response => {
+// //       if (!response.ok) {
+// //         return alert('Error: ' + response.statusText);
+// //       }
+// //       return response.json();
+// //     })
+// //     .then(notesData => {
+// //       console.log(notesData);
+// //     //   printResults(notesData);
+// //     });
+// //   };
 
-const handleDisyplayNoteClick = event => {
-    event.preventDefault();
-    
-}
+// const handleDisplayNoteClick = event => {
+//     event.preventDefault();
+//     console.log("in here");
 
-$noteList.addEventListener('click', handleDisplayNoteClick)
-getNotes();
+// }
+// if (window.location.pathname === '/notes') {
+// noteDisplay.addEventListener('click', handleDisplayNoteClick);
+// }
+// // getNotes();
