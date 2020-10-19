@@ -8,8 +8,6 @@ router.get('/notes', (req, res) => {
 });
 
 router.get('/notes/:id', (req, res) => {
-  console.log("efger");
-  console.log(req.params.id);
   const id = req.params.id;
   const result = notes.filter(note => notes.id === id)[0];
   console.log(result);
@@ -21,14 +19,17 @@ router.get('/notes/:id', (req, res) => {
 });
 
 router.post('/notes', (req, res) => {
+  // new id
   req.body.id = notes.length.toString();
+  // new note title & text
   const newNote = req.body;
+  // push to array
   notes.push(newNote);
+  // write to db
   fs.writeFileSync(
     path.join(__dirname, '../../db/db.json'),
     JSON.stringify(notes, null, 2)
   );
-  console.log(notes);
   res.json(notes);
   
 });

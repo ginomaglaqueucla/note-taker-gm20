@@ -1,22 +1,7 @@
 [
   {
-    "title": "Test Title",
-    "text": "Test text",
-    "id": "1"
-  },
-  {
-    "title": "Wash car",
-    "text": "get wax",
-    "id": "1"
-  },
-  {
-    "title": "do hw",
-    "text": "dsg",
-    "id": "2"
-  },
-  {
-    "title": "few",
-    "text": "fwreg",
-    "id": "3"
+    "title": "Note Taker Challenge",
+    "text": "Finish homework and submit before due date/time",
+    "id": "0"
   }
 ]
