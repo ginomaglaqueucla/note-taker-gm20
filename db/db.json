@@ -1,8 +1,22 @@
-{
-"notes":
-    [
-        {"title":"Test Title","text":"Test text", "id":"1"},
-        {"title":"Gino","text":"Test text", "id": "2"},
-        {"title":"Franco","text":"Test text", "id": "3"},
-        {"title":"Cooper","text":"Test text", "id": "4"}]
-}
+[
+  {
+    "title": "Test Title",
+    "text": "Test text",
+    "id": "1"
+  },
+  {
+    "title": "Wash car",
+    "text": "get wax",
+    "id": "1"
+  },
+  {
+    "title": "do hw",
+    "text": "dsg",
+    "id": "2"
+  },
+  {
+    "title": "few",
+    "text": "fwreg",
+    "id": "3"
+  }
+]
