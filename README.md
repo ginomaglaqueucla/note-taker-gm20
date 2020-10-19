@@ -51,9 +51,9 @@ To contribute to this project:
 
 ## Test
 
-![Homepage](./assets/images/Home-Page.png)
-![New Note](./assets/images/New-Note.png)
-![Sample New](./assets/images/Sample-New.png)
+![Homepage](./public/assets/images/Home-Page.png)
+![New Note](./public/assets/images/New-Note.png)
+![Sample New](./public/assets/images/Sample-New.png)
 
 ## Questions
 Any questions? Contact at: ginomaglaque@gmail.com
