@@ -2,7 +2,7 @@
 ![licenseBadge](https://img.shields.io/badge/License-MIT-blue)
 
 ## Description
-Note Taker is a full stack deployed application. User has the ability to create a note title and text accordingly. Notes are can be saved onto the application's database. 
+Note Taker is a full stack deployed application. User has the ability to create a note title and text accordingly. Notes can be saved onto the application's database. 
 
 ## Table of Contents
 * [Installation](#installation)
